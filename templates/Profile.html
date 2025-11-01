@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Profile - Travel System</title>
+</head>
+<body>
+  <h1>My Profile</h1>
+
+  <p><strong>Name:</strong> {{ user.fullname }}</p>
+  <p><strong>Email:</strong> {{ user.email }}</p>
+  <p><strong>Member since:</strong> {{ user.date_joined }}</p>
+
+  <h3>Update Profile</h3>
+  <form method="POST" action="/profile/update/">
+    <label>Full Name:</label><br>
+    <input type="text" name="fullname" value="{{ user.fullname }}" required><br><br>
+
+    <label>Email:</label><bgit branch>
+    <input type="email" name="email" value="{{ user.email }}" required><br><br>
+
+    <button type="submit">Save Changes</button>
+  </form>
+
+  <p><a href="/logout/">Logout</a></p>
+</body>
+</html>
