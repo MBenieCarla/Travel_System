@@ -1,12 +1,19 @@
 #Travel System project
 
-Project description:
+**Project description:**
+Django-based web application for managing travel bookings
 This system includes key templates such as the 
 a. login and logout of users feauture
 b. A registration feature to take into account new users
 c. a template for the users profile
 
-a users app with login, logout and registration features
+
+
+**setup instructions**
+cloning repository: git clone https://github.com/MBenieCarla/Travel_System.git
+cd Travel-System
+
+
 
 **How to run the system **
 Users log into the system via the login page using their email and password
