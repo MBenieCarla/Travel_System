@@ -7,3 +7,6 @@ b. A registration feature to take into account new users
 c. a template for the users profile
 
 a users app with login, logout and registration features
+
+**How to run the system **
+
